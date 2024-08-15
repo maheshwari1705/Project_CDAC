@@ -1,0 +1,400 @@
+fnbounds: /home/apps/spack/opt/spack/linux-centos7-cascadelake/gcc-11.2.0/hpctoolkit-2021.10.15-xwzccbhlwuknxd3d2oiiok6dmnss3eiv/libexec/hpctoolkit/hpcfnbounds2
+[108151, 14]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 14]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 14]: -- end backtrace ------------------------------------
+
+[108151, 29]: Weird result! jmp @ 0x2b35bd43e734 branch_target 0x2b35bd43e621 has no function bounds
+[108151, 29]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 29]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 29]: -- end backtrace ------------------------------------
+
+[108151, 6]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 6]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 6]: -- end backtrace ------------------------------------
+
+[108151, 12]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 12]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 12]: -- end backtrace ------------------------------------
+
+[108151, 17]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 17]: NULL (0): ip = 0x2b35bd43e747 (0x3a747), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 17]: -- end backtrace ------------------------------------
+
+[108151, 2]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 2]: NULL (0): ip = 0x2b35bd43e740 (0x3a740), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 2]: -- end backtrace ------------------------------------
+
+[108151, 24]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 24]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 24]: -- end backtrace ------------------------------------
+
+[108151, 16]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 16]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 16]: -- end backtrace ------------------------------------
+
+[108151, 19]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 19]: NULL (0): ip = 0x2b35bd43e721 (0x3a721), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 19]: -- end backtrace ------------------------------------
+
+[108151, 32]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 32]: NULL (0): ip = 0x2b35bd43e734 (0x3a734), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 32]: -- end backtrace ------------------------------------
+
+[108151, 12]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 12]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 12]: -- end backtrace ------------------------------------
+
+[108151, 13]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 13]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 13]: -- end backtrace ------------------------------------
+
+[108151, 17]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 17]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 17]: -- end backtrace ------------------------------------
+
+[108151, 17]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 17]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 17]: -- end backtrace ------------------------------------
+
+[108151, 3]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 3]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 3]: -- end backtrace ------------------------------------
+
+[108151, 13]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 13]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 13]: -- end backtrace ------------------------------------
+
+[108151, 4]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 4]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 4]: -- end backtrace ------------------------------------
+
+[108151, 15]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 15]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 15]: -- end backtrace ------------------------------------
+
+[108151, 3]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 3]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 3]: -- end backtrace ------------------------------------
+
+[108151, 18]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 18]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 18]: -- end backtrace ------------------------------------
+
+[108151, 1]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 1]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 1]: -- end backtrace ------------------------------------
+
+[108151, 24]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 24]: NULL (0): ip = 0x2b35bd43e747 (0x3a747), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 24]: -- end backtrace ------------------------------------
+
+[108151, 10]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 10]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 10]: -- end backtrace ------------------------------------
+
+[108151, 7]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 7]: NULL (0): ip = 0x2b35bd43e740 (0x3a740), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 7]: -- end backtrace ------------------------------------
+
+[108151, 16]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 16]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 16]: -- end backtrace ------------------------------------
+
+[108151, 31]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 31]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 31]: -- end backtrace ------------------------------------
+
+[108151, 19]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 19]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 19]: -- end backtrace ------------------------------------
+
+[108151, 13]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 13]: NULL (0): ip = 0x2b35bd43e734 (0x3a734), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 13]: -- end backtrace ------------------------------------
+
+[108151, 15]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 15]: NULL (0): ip = 0x2b35bd43e721 (0x3a721), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 15]: -- end backtrace ------------------------------------
+
+[108151, 21]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 21]: NULL (0): ip = 0x2b35bd43e721 (0x3a721), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 21]: -- end backtrace ------------------------------------
+
+[108151, 32]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 32]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 32]: -- end backtrace ------------------------------------
+
+[108151, 23]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 23]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 23]: -- end backtrace ------------------------------------
+
+[108151, 16]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 16]: NULL (0): ip = 0x2b35bd43e721 (0x3a721), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 16]: -- end backtrace ------------------------------------
+
+[108151, 26]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 26]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 26]: -- end backtrace ------------------------------------
+
+[108151, 21]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 21]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 21]: -- end backtrace ------------------------------------
+
+[108151, 26]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 26]: NULL (0): ip = 0x2b35bd43e734 (0x3a734), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 26]: -- end backtrace ------------------------------------
+
+[108151, 14]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 14]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 14]: -- end backtrace ------------------------------------
+
+[108151, 9]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 9]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 9]: -- end backtrace ------------------------------------
+
+[108151, 6]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 6]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 6]: -- end backtrace ------------------------------------
+
+[108151, 27]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 27]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 27]: -- end backtrace ------------------------------------
+
+[108151, 18]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 18]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 18]: -- end backtrace ------------------------------------
+
+[108151, 4]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 4]: NULL (0): ip = 0x2b35bd43e721 (0x3a721), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 4]: -- end backtrace ------------------------------------
+
+[108151, 28]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 28]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 28]: -- end backtrace ------------------------------------
+
+[108151, 5]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 5]: NULL (0): ip = 0x2b35bd43e740 (0x3a740), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 5]: -- end backtrace ------------------------------------
+
+[108151, 17]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 17]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 17]: -- end backtrace ------------------------------------
+
+[108151, 3]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 3]: NULL (0): ip = 0x2b35bd43e734 (0x3a734), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 3]: -- end backtrace ------------------------------------
+
+[108151, 2]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 2]: NULL (0): ip = 0x2b35bd43e721 (0x3a721), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 2]: -- end backtrace ------------------------------------
+
+[108151, 15]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 15]: NULL (0): ip = 0x2b35bd43e747 (0x3a747), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 15]: -- end backtrace ------------------------------------
+
+[108151, 16]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 16]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 16]: -- end backtrace ------------------------------------
+
+[108151, 29]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 29]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 29]: -- end backtrace ------------------------------------
+
+[108151, 5]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 5]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 5]: -- end backtrace ------------------------------------
+
+[108151, 4]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 4]: NULL (0): ip = 0x2b35bd43e721 (0x3a721), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 4]: -- end backtrace ------------------------------------
+
+[108151, 9]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 9]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 9]: -- end backtrace ------------------------------------
+
+[108151, 1]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 1]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 1]: -- end backtrace ------------------------------------
+
+[108151, 18]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 18]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 18]: -- end backtrace ------------------------------------
+
+[108151, 21]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 21]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 21]: -- end backtrace ------------------------------------
+
+[108151, 29]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 29]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 29]: -- end backtrace ------------------------------------
+
+[108151, 5]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 5]: NULL (0): ip = 0x2b35bd43e734 (0x3a734), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 5]: -- end backtrace ------------------------------------
+
+[108151, 21]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 21]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 21]: -- end backtrace ------------------------------------
+
+[108151, 15]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 15]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 15]: -- end backtrace ------------------------------------
+
+[108151, 1]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 1]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 1]: -- end backtrace ------------------------------------
+
+[108151, 11]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 11]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 11]: -- end backtrace ------------------------------------
+
+[108151, 32]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 32]: NULL (0): ip = 0x2b35bd43e740 (0x3a740), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 32]: -- end backtrace ------------------------------------
+
+[108151, 8]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 8]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 8]: -- end backtrace ------------------------------------
+
+[108151, 27]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 27]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 27]: -- end backtrace ------------------------------------
+
+[108151, 3]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 3]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 3]: -- end backtrace ------------------------------------
+
+[108151, 18]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 18]: NULL (0): ip = 0x2b35bd43e740 (0x3a740), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 18]: -- end backtrace ------------------------------------
+
+[108151, 20]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 20]: NULL (0): ip = 0x2b35bd43e734 (0x3a734), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 20]: -- end backtrace ------------------------------------
+
+[108151, 31]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 31]: NULL (0): ip = 0x2b35bd43e740 (0x3a740), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 31]: -- end backtrace ------------------------------------
+
+[108151, 15]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 15]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 15]: -- end backtrace ------------------------------------
+
+[108151, 1]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 1]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 1]: -- end backtrace ------------------------------------
+
+[108151, 30]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 30]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 30]: -- end backtrace ------------------------------------
+
+[108151, 1]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 1]: NULL (0): ip = 0x2b35bd43e721 (0x3a721), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 1]: -- end backtrace ------------------------------------
+
+[108151, 24]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 24]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 24]: -- end backtrace ------------------------------------
+
+[108151, 10]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 10]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 10]: -- end backtrace ------------------------------------
+
+[108151, 26]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 26]: NULL (0): ip = 0x2b35bd43e734 (0x3a734), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 26]: -- end backtrace ------------------------------------
+
+[108151, 7]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 7]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 7]: -- end backtrace ------------------------------------
+
+[108151, 29]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 29]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 29]: -- end backtrace ------------------------------------
+
+[108151, 24]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 24]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 24]: -- end backtrace ------------------------------------
+
+[108151, 24]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 24]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 24]: -- end backtrace ------------------------------------
+
+[108151, 3]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 3]: NULL (0): ip = 0x2b35bd43e740 (0x3a740), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 3]: -- end backtrace ------------------------------------
+
+[108151, 10]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 10]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 10]: -- end backtrace ------------------------------------
+
+[108151, 30]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 30]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 30]: -- end backtrace ------------------------------------
+
+[108151, 5]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 5]: NULL (0): ip = 0x2b35bd43e739 (0x3a739), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 5]: -- end backtrace ------------------------------------
+
+[108151, 20]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 20]: NULL (0): ip = 0x2b35bd43e734 (0x3a734), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 20]: -- end backtrace ------------------------------------
+
+[108151, 31]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 31]: NULL (0): ip = 0x2b35bd43e753 (0x3a753), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 31]: -- end backtrace ------------------------------------
+
+[108151, 3]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 3]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 3]: -- end backtrace ------------------------------------
+
+[108151, 1]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 1]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 1]: -- end backtrace ------------------------------------
+
+[108151, 12]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 12]: NULL (0): ip = 0x2b35bd43e721 (0x3a721), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 12]: -- end backtrace ------------------------------------
+
+[108151, 7]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 7]: NULL (0): ip = 0x2b35bd43e747 (0x3a747), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 7]: -- end backtrace ------------------------------------
+
+[108151, 3]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 3]: NULL (0): ip = 0x2b35bd43e740 (0x3a740), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 3]: -- end backtrace ------------------------------------
+
+[108151, 13]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 13]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 13]: -- end backtrace ------------------------------------
+
+[108151, 26]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 26]: NULL (0): ip = 0x2b35bd43e734 (0x3a734), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 26]: -- end backtrace ------------------------------------
+
+[108151, 20]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 20]: NULL (0): ip = 0x2b35bd43e721 (0x3a721), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 20]: -- end backtrace ------------------------------------
+
+[108151, 20]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 20]: NULL (0): ip = 0x2b35bd43e734 (0x3a734), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 20]: -- end backtrace ------------------------------------
+
+[108151, 30]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 30]: NULL (0): ip = 0x2b35bd43e71a (0x3a71a), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 30]: -- end backtrace ------------------------------------
+
+[108151, 20]: -- begin new backtrace (innermost first) [PARTIAL] ----------
+[108151, 20]: NULL (0): ip = 0x2b35bd43e721 (0x3a721), load module = /usr/lib64/libc-2.17.so | lip 
+[108151, 20]: -- end backtrace ------------------------------------
+
+MEMORY: segment size: 4.0 meg, num segments: 67, total allocation: 268.0 meg, reclaims: 0
+MEMORY: total freeable: 0.0 meg, total non-freeable: 137.1 meg, malloc failures: 0
+UNWIND ANOMALIES: total: 340794 errant: 97, total-frames: 2000096, total-libunwind-fails: 0
+ACC SUMMARY:
+         accelerator trace records: 0 (processed: 0, dropped: 0)
+         accelerator samples: 0 (recorded: 0, dropped: 0)
+SAMPLE ANOMALIES: blocks: 0 (async: 0, dlopen: 0), errors: 97 (segv: 0, soft: 97)
+SUMMARY: samples: 340794 (recorded: 340794, blocked: 0, errant: 97, trolled: 0, yielded: 0),
+         frames: 2000096 (trolled: 0)
+         intervals: 215 (suspicious: 0)

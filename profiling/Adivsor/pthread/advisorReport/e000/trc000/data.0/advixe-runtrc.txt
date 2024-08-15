@@ -1,0 +1,10 @@
+
+=== Start: [2024/08/15 23:57:12] === 
+Peak bandwidth measurement started...
+Peak bandwidth measurement finished.
+Analysis started...
+Result file: /home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/advisorReport/e000/trc000/trc000.advixe 
+Application exit code: 0 
+Result file: /home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/advisorReport/e000/trc000/trc000.advixe 
+Analysis completed
+=== End: [2024/08/16 00:00:32] === 

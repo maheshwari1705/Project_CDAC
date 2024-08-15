@@ -1,0 +1,35 @@
+10 [139930013472768] INFO perfrun.launcher <> - Launcher main begin
+11 [139930013472768] INFO perfrun.launcher <> - MessageCatalogInit finished
+11 [139930013472768] INFO perfrun.launcher <> - Launcher instance created
+11 [139930013472768] INFO perfrun.launcher <> - argc = 6; cmdline = /opt/intel/oneapi/advisor/2023.0.0/bin64/advixe-runss -dump-vdso -r /home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/advisorReport/e000/hs001 --tmp-dir /tmp/advixe-tmp-user8 
+80 [139930013472768] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+81 [139930013472768] INFO perfrun.launcher <> - create file finder object
+96 [139929884280576] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+96 [139929884280576] INFO perfrun.launcher <> - plugin [system] was disabled because it doesn't support the given collection type.
+96 [139929884280576] INFO perfrun.vdso <> - dumping [vdso] pseudomodule
+123 [139929884280576] INFO perfrun.launcher <> - plugin [itt] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [mrte] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139929884280576] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+123 [139930013472768] INFO perfrun.launcher <> - Application exit code: 0
+123 [139930013472768] INFO perfrun.launcher <> - Exit code: 0

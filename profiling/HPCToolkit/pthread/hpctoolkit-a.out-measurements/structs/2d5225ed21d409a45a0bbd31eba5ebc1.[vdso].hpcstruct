@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<!DOCTYPE HPCToolkitStructure [
+<!-- ******************************************************************** -->
+<!-- HPCToolkit Structure DTD                                             -->
+<!-- Version 4.7                                                          -->
+<!-- ******************************************************************** -->
+
+<!ELEMENT HPCToolkitStructure (LM)*>
+<!ATTLIST HPCToolkitStructure
+	version CDATA #REQUIRED
+	i       CDATA #REQUIRED
+	n       CDATA #IMPLIED>
+  <!-- Load module: -->
+  <!--   (i)d: unique identifier for cross referencing -->
+  <!--   (n)ame -->
+  <!--   (l)ine range: "beg-end" (inclusive range) -->
+  <!--   (v)ma-range-set: "{[beg-end), [beg-end)...}" -->
+  <!--   (t)arget: target function address -->
+  <!--   (d)evice: device name -->
+  <!ELEMENT LM (F|P)*>
+  <!ATTLIST LM
+	i CDATA #REQUIRED
+	n CDATA #REQUIRED
+	v CDATA #IMPLIED>
+  <!-- File: -->
+  <!ELEMENT F (P|L|S)*>
+  <!ATTLIST F
+	i CDATA #REQUIRED
+	n CDATA #REQUIRED>
+  <!-- Procedure: ln=link name (if different than name) -->
+  <!ELEMENT P (P|A|L|S|C)*>
+  <!ATTLIST P
+	i  CDATA #REQUIRED
+	n  CDATA #REQUIRED
+	ln CDATA #IMPLIED
+	l  CDATA #IMPLIED
+	s  CDATA #IMPLIED
+	v  CDATA #IMPLIED>
+  <!-- Alien: (f)ilename -->
+  <!ELEMENT A (A|L|S|C)*>
+  <!ATTLIST A
+	i CDATA #REQUIRED
+	f CDATA #IMPLIED
+	n CDATA #IMPLIED
+	ln CDATA #IMPLIED
+	l CDATA #IMPLIED
+	v CDATA #IMPLIED>
+  <!-- Loop -->
+  <!ELEMENT L (A|L|S|C)*>
+  <!ATTLIST L
+	i CDATA #REQUIRED
+	l CDATA #REQUIRED
+	f CDATA #IMPLIED
+	v CDATA #IMPLIED>
+  <!-- Statement -->
+  <!ELEMENT S EMPTY>
+  <!ATTLIST S
+	i CDATA #REQUIRED
+	l CDATA #REQUIRED
+	v CDATA #IMPLIED>
+  <!-- Callsite (a special Statement) -->
+  <!ELEMENT C (C)*>
+  <!ATTLIST C
+	i CDATA #REQUIRED
+	l CDATA #REQUIRED
+	v CDATA #IMPLIED
+	t CDATA #IMPLIED
+	d CDATA #IMPLIED>
+]>
+<HPCToolkitStructure i="0" version="4.7" n="">
+<LM i="2" n="/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/HPCToolkit/pthread/hpctoolkit-a.out-measurements/vdso/2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]" v="{}">
+  <F i="3" n="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]">
+    <P i="4" n="__vdso_clock_gettime [2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" ln="__vdso_clock_gettime" l="0" v="{[0xffffffffff700600-0xffffffffff700601)}">
+      <S i="5" l="0" v="{[0xffffffffff700600-0xffffffffff70062a) [0xffffffffff700659-0xffffffffff700666) [0xffffffffff70069d-0xffffffffff7006c0) [0xffffffffff7006c2-0xffffffffff7006dc) [0xffffffffff700747-0xffffffffff700768) [0xffffffffff700779-0xffffffffff7007a0) [0xffffffffff70080b-0xffffffffff700830) [0xffffffffff700841-0xffffffffff700860) [0xffffffffff70091d-0xffffffffff700920) [0xffffffffff70095d-0xffffffffff700960) [0xffffffffff700973-0xffffffffff700978) [0xffffffffff700ac3-0xffffffffff700ac8) [0xffffffffff700afd-0xffffffffff700b00)}"/>
+      <C i="6" l="0" v="{[0xffffffffff7006c0-0xffffffffff7006c2)}" d=""/>
+      <L i="7" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff70062a-0xffffffffff70062b)}">
+        <S i="8" l="0" v="{[0xffffffffff70062a-0xffffffffff700659) [0xffffffffff700b1a-0xffffffffff700b21)}"/>
+      </L>
+      <L i="9" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff700670-0xffffffffff700671)}">
+        <S i="10" l="0" v="{[0xffffffffff700666-0xffffffffff70069d)}"/>
+      </L>
+      <L i="11" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff7006dc-0xffffffffff7006dd)}">
+        <S i="12" l="0" v="{[0xffffffffff7006dc-0xffffffffff700747) [0xffffffffff7008d1-0xffffffffff7008e0) [0xffffffffff700920-0xffffffffff70095d) [0xffffffffff700960-0xffffffffff700973) [0xffffffffff700a77-0xffffffffff700ac3) [0xffffffffff700b21-0xffffffffff700b35)}"/>
+        <L i="13" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff7008c6-0xffffffffff7008c7)}">
+          <S i="14" l="0" v="{[0xffffffffff7008a0-0xffffffffff7008d1)}"/>
+        </L>
+        <L i="15" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff700a0e-0xffffffffff700a0f)}">
+          <S i="16" l="0" v="{[0xffffffffff700a0e-0xffffffffff700a77) [0xffffffffff700b0d-0xffffffffff700b1a)}"/>
+        </L>
+      </L>
+      <L i="17" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff700768-0xffffffffff700769)}">
+        <S i="18" l="0" v="{[0xffffffffff700768-0xffffffffff700779)}"/>
+      </L>
+      <L i="19" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff7007a0-0xffffffffff7007a1)}">
+        <S i="20" l="0" v="{[0xffffffffff7007a0-0xffffffffff70080b) [0xffffffffff700891-0xffffffffff7008a0) [0xffffffffff7008e0-0xffffffffff70091d) [0xffffffffff700978-0xffffffffff70098e) [0xffffffffff7009f7-0xffffffffff700a0e) [0xffffffffff700ac8-0xffffffffff700afd) [0xffffffffff700b35-0xffffffffff700b45)}"/>
+        <L i="21" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff700886-0xffffffffff700887)}">
+          <S i="22" l="0" v="{[0xffffffffff700860-0xffffffffff700891)}"/>
+        </L>
+        <L i="23" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff70098e-0xffffffffff70098f)}">
+          <S i="24" l="0" v="{[0xffffffffff70098e-0xffffffffff7009f7) [0xffffffffff700b00-0xffffffffff700b0d)}"/>
+        </L>
+      </L>
+      <L i="25" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff700830-0xffffffffff700831)}">
+        <S i="26" l="0" v="{[0xffffffffff700830-0xffffffffff700841)}"/>
+      </L>
+    </P>
+    <P i="27" n="__vdso_gettimeofday [2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" ln="__vdso_gettimeofday" l="0" v="{[0xffffffffff700b50-0xffffffffff700b51)}">
+      <S i="28" l="0" v="{[0xffffffffff700b50-0xffffffffff700b6e) [0xffffffffff700bd9-0xffffffffff700bf8) [0xffffffffff700c0e-0xffffffffff700c45) [0xffffffffff700c47-0xffffffffff700c58) [0xffffffffff700c99-0xffffffffff700ca0) [0xffffffffff700cc9-0xffffffffff700cd0) [0xffffffffff700cf7-0xffffffffff700cfe) [0xffffffffff700ddb-0xffffffffff700dfd)}"/>
+      <C i="29" l="0" v="{[0xffffffffff700c45-0xffffffffff700c47)}" d=""/>
+      <L i="30" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff700b6e-0xffffffffff700b6f)}">
+        <S i="31" l="0" v="{[0xffffffffff700b6e-0xffffffffff700bd9) [0xffffffffff700c89-0xffffffffff700c99) [0xffffffffff700ca0-0xffffffffff700cc9) [0xffffffffff700cd0-0xffffffffff700cf7) [0xffffffffff700cfe-0xffffffffff700d05) [0xffffffffff700d6a-0xffffffffff700db4) [0xffffffffff700dbe-0xffffffffff700ddb)}"/>
+        <L i="32" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff700c7e-0xffffffffff700c7f)}">
+          <S i="33" l="0" v="{[0xffffffffff700c58-0xffffffffff700c89)}"/>
+        </L>
+        <L i="34" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff700d05-0xffffffffff700d06)}">
+          <S i="35" l="0" v="{[0xffffffffff700d05-0xffffffffff700d6a) [0xffffffffff700db4-0xffffffffff700dbe) [0xffffffffff700dfd-0xffffffffff700e04)}"/>
+        </L>
+      </L>
+      <L i="36" l="0" f="[2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" v="{[0xffffffffff700bf8-0xffffffffff700bf9)}">
+        <S i="37" l="0" v="{[0xffffffffff700bf8-0xffffffffff700c0e)}"/>
+      </L>
+    </P>
+    <P i="38" n="__vdso_time [2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" ln="__vdso_time" l="0" v="{[0xffffffffff700e10-0xffffffffff700e11)}">
+      <S i="39" l="0" v="{[0xffffffffff700e10-0xffffffffff700e26)}"/>
+    </P>
+    <P i="40" n="__vdso_getcpu [2d5225ed21d409a45a0bbd31eba5ebc1.[vdso]]" ln="__vdso_getcpu" l="0" v="{[0xffffffffff700e30-0xffffffffff700e31)}">
+      <S i="41" l="0" v="{[0xffffffffff700e30-0xffffffffff700e6d)}"/>
+    </P>
+  </F>
+</LM>
+</HPCToolkitStructure>

@@ -1,0 +1,372 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	      2480	    0	      0	                                  _start	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2480	48	0	1	0	0	0	0	0	0	0	0
+         2	        -1	      2520	    0	      0	                                  _start	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2480	48	0	1	0	0	0	0	0	0	0	0
+         3	       306	    140628	    1	      1	     [Loop@0x22499 in __libc_start_main]	/lib64/libc.so.6	140441	391	0	16	0	0	0	0	0	0	0	0
+         4	       326	      4169	    1	      0	                 [Loop@0x400e75 in main]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	3701	483	0	4	0	0	0	0	0	0	0	0
+         5	        -1	      2799	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+         6	        -1	   1043212	    0	      1	                                 __clone	/lib64/libc.so.6	1043104	134	0	22	0	0	0	0	0	0	0	0
+         7	       304	     32420	    1	      1	           [Loop@0x7e93 in start_thread]	/lib64/libpthread.so.0	32403,32647	55,72	0	2	0	0	0	0	0	0	0	0
+         8	         7	   3502813	    0	      1	       tpss_thread_start_routine_wrapper	/opt/intel/oneapi/advisor/2023.0.0/lib64/libtpsstool.so	3501888	1869	0	31	0	0	0	0	0	0	0	0
+         9	       329	      3022	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        10	         9	    240440	    0	      1	                                    rand	/lib64/libc.so.6	240432	14	0	23	0	0	0	0	0	0	0	0
+        11	        10	    239404	    0	      1	                             _L_lock_130	/lib64/libc.so.6	239386	31	0	24	0	0	0	0	0	0	0	0
+        12	       308	   1099772	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+        13	       329	      2992	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        14	        13	    240440	    0	      1	                                    rand	/lib64/libc.so.6	240432	14	0	23	0	0	0	0	0	0	0	0
+        15	        14	    239404	    0	      1	                             _L_lock_130	/lib64/libc.so.6	239386	31	0	24	0	0	0	0	0	0	0	0
+        16	       310	   1099776	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+        17	        10	    239435	    0	      1	                           _L_unlock_140	/lib64/libc.so.6	239417	31	0	27	0	0	0	0	0	0	0	0
+        18	        17	   1099817	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+        19	       310	   1099772	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+        20	       310	   1099770	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+        21	        14	    239435	    0	      1	                           _L_unlock_140	/lib64/libc.so.6	239417	31	0	27	0	0	0	0	0	0	0	0
+        22	        21	   1099817	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+        23	        14	    239153	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+        24	        23	    239734	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+        25	        14	    239116	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+        26	        14	    239170	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+        27	        10	    239153	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+        28	        27	    239737	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+        29	        27	    239734	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+        30	        10	    239170	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+        31	       329	      3172	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        32	        31	    203329	    0	      1	                                    expf	/lib64/libm.so.6	203312	114	0	10	0	0	0	0	0	0	0	0
+        33	        32	    176928	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        34	        10	    239424	    0	      1	                           _L_unlock_140	/lib64/libc.so.6	239417	31	0	27	0	0	0	0	0	0	0	0
+        35	       308	   1099776	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+        36	        10	    239116	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+        37	       308	   1099774	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+        38	       329	      3067	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        39	        38	      2732	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+        40	        23	    239713	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+        41	        32	    177117	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        42	       329	      2988	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        43	        38	      2719	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+        44	        43	    185366	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+        45	        32	    176958	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        46	        27	    239713	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+        47	       329	      3027	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        48	        32	    177107	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        49	        17	   1099818	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+        50	        14	    239195	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+        51	       329	      3130	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        52	        51	    205740	    0	      1	                                   sqrtf	/lib64/libm.so.6	205728	38	0	19	0	0	0	0	0	0	0	0
+        53	       329	      3072	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        54	        43	    185518	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+        55	        32	    177112	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        56	        32	    176993	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        57	        14	    239386	    0	      1	                             _L_lock_130	/lib64/libc.so.6	239386	31	0	24	0	0	0	0	0	0	0	0
+        58	        31	      2336	    0	      0	                           func@0x400920	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2336	6	0	11	0	0	0	0	0	0	0	0
+        59	       329	      3043	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        60	        27	    239732	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+        61	        43	    185878	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+        62	        23	    239744	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+        63	       329	      3023	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        64	        43	    185377	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+        65	        38	      2791	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+        66	        65	    196298	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+        67	        43	    185305	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+        68	       308	   1099770	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+        69	        10	    239386	    0	      1	                             _L_lock_130	/lib64/libc.so.6	239386	31	0	24	0	0	0	0	0	0	0	0
+        70	        43	    185493	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+        71	        38	      2779	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+        72	        32	    177091	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        73	       329	      3053	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        74	        43	    185296	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+        75	        43	    185568	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+        76	        43	    185556	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+        77	       329	      2997	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        78	         9	    240441	    0	      1	                                    rand	/lib64/libc.so.6	240432	14	0	23	0	0	0	0	0	0	0	0
+        79	       329	      3031	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        80	        32	    177051	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        81	        43	    185397	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+        82	        32	    177058	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        83	        32	    177044	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        84	        13	    240441	    0	      1	                                    rand	/lib64/libc.so.6	240432	14	0	23	0	0	0	0	0	0	0	0
+        85	        32	    177099	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        86	        15	   1099780	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+        87	        10	    239122	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+        88	       329	      3013	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+        89	        38	      2711	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+        90	        32	    177121	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        91	        43	    185882	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+        92	        32	    177029	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+        93	        11	   1099781	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+        94	        38	      2797	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+        95	        14	    239436	    0	      1	                           _L_unlock_140	/lib64/libc.so.6	239417	31	0	27	0	0	0	0	0	0	0	0
+        96	        65	    195793	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+        97	        43	    185874	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+        98	        43	    204950	    0	      1	                                    logf	/lib64/libm.so.6	204944	77	0	21	0	0	0	0	0	0	0	0
+        99	        31	    203334	    0	      1	                                    expf	/lib64/libm.so.6	203312	114	0	10	0	0	0	0	0	0	0	0
+       100	        32	    177033	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       101	        27	    239763	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       102	        43	    204944	    0	      1	                                    logf	/lib64/libm.so.6	204944	77	0	21	0	0	0	0	0	0	0	0
+       103	       329	      3164	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       104	        23	    239737	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       105	        32	    177015	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       106	        10	    239436	    0	      1	                           _L_unlock_140	/lib64/libc.so.6	239417	31	0	27	0	0	0	0	0	0	0	0
+       107	        43	    185584	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       108	        13	    240445	    0	      1	                                    rand	/lib64/libc.so.6	240432	14	0	23	0	0	0	0	0	0	0	0
+       109	        17	   1099815	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+       110	        23	    239763	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       111	        14	    239163	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       112	        14	    239424	    0	      1	                           _L_unlock_140	/lib64/libc.so.6	239417	31	0	27	0	0	0	0	0	0	0	0
+       113	        13	    240432	    0	      1	                                    rand	/lib64/libc.so.6	240432	14	0	23	0	0	0	0	0	0	0	0
+       114	        10	    239393	    0	      1	                             _L_lock_130	/lib64/libc.so.6	239386	31	0	24	0	0	0	0	0	0	0	0
+       115	        10	    239176	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       116	        13	      2464	    0	      0	                           func@0x4009a0	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2464	6	0	12	0	0	0	0	0	0	0	0
+       117	        21	   1099818	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+       118	         9	    240445	    0	      1	                                    rand	/lib64/libc.so.6	240432	14	0	23	0	0	0	0	0	0	0	0
+       119	        43	    185472	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       120	        43	    185486	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       121	        65	    195806	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       122	        65	    195785	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       123	        43	    185863	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       124	        32	    176985	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       125	       329	      3204	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       126	        32	    177083	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       127	        38	      2694	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+       128	       329	      3192	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       129	        23	    239732	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       130	        51	    205728	    0	      1	                                   sqrtf	/lib64/libm.so.6	205728	38	0	19	0	0	0	0	0	0	0	0
+       131	        11	   1099744	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       132	        32	    177103	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       133	       329	      3144	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       134	       329	      3039	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       135	        65	    195810	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       136	        32	    177019	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       137	        32	    177125	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       138	        10	    239195	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       139	        65	    195852	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       140	        43	    185521	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       141	        65	    195638	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       142	        65	    195715	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       143	        11	   1099747	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       144	        31	    203366	    0	      1	                                    expf	/lib64/libm.so.6	203312	114	0	10	0	0	0	0	0	0	0	0
+       145	        38	      2783	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+       146	        65	    195920	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       147	        43	    185381	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       148	        65	    195883	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       149	         9	      2464	    0	      0	                           func@0x4009a0	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2464	6	0	12	0	0	0	0	0	0	0	0
+       150	        14	    239412	    0	      1	                             _L_lock_130	/lib64/libc.so.6	239386	31	0	24	0	0	0	0	0	0	0	0
+       151	        17	   1099793	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+       152	        43	    185548	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       153	        43	    185403	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       154	        32	    177062	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       155	       308	   1099764	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+       156	       308	   1099765	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+       157	        65	    195834	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       158	        43	    185512	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       159	        43	    185572	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       160	        65	    195924	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       161	       310	   1099765	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+       162	        14	    239106	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       163	        43	    185544	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       164	       329	      3018	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       165	        65	    195932	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       166	        65	    196274	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       167	       329	      3196	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       168	       310	   1099774	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+       169	        65	    196318	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       170	        27	    239741	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       171	       329	      3152	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       172	        32	    176932	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       173	        65	    195698	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       174	        31	    203312	    0	      1	                                    expf	/lib64/libm.so.6	203312	114	0	10	0	0	0	0	0	0	0	0
+       175	        65	    195875	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       176	         9	    240432	    0	      1	                                    rand	/lib64/libc.so.6	240432	14	0	23	0	0	0	0	0	0	0	0
+       177	        23	    239696	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       178	        65	    195611	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       179	        21	   1099793	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+       180	        51	      2368	    0	      0	                           func@0x400940	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2368	6	0	13	0	0	0	0	0	0	0	0
+       181	       329	      3160	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       182	        14	    239088	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       183	        10	    239417	    0	      1	                           _L_unlock_140	/lib64/libc.so.6	239417	31	0	27	0	0	0	0	0	0	0	0
+       184	        32	    177027	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       185	       321	   1099772	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+       186	        -1	   1099817	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+       187	       321	   1099776	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+       188	        15	   1099781	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       189	        27	    239696	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       190	        27	    239744	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       191	        65	    195730	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       192	        23	    239753	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       193	       310	   1099764	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+       194	        43	    185870	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       195	        31	    203352	    0	      1	                                    expf	/lib64/libm.so.6	203312	114	0	10	0	0	0	0	0	0	0	0
+       196	        65	    195734	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       197	        43	    185532	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       198	        43	    185560	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       199	        14	    239405	    0	      1	                             _L_lock_130	/lib64/libc.so.6	239386	31	0	24	0	0	0	0	0	0	0	0
+       200	       354	      3027	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       201	        -1	    239170	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       202	        -1	    239734	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       203	       321	   1099770	    1	      1	[Loop@0x10c7f4 in __lll_lock_wait_private]	/lib64/libc.so.6	1099764	16	0	25	0	0	0	0	0	0	0	0
+       204	        -1	    239116	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       205	        -1	    240441	    0	      1	                                    rand	/lib64/libc.so.6	240432	14	0	23	0	0	0	0	0	0	0	0
+       206	        -1	    239713	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       207	        38	      2744	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+       208	       207	    205740	    0	      1	                                   sqrtf	/lib64/libm.so.6	205728	38	0	19	0	0	0	0	0	0	0	0
+       209	        65	      2224	    0	      0	                           func@0x4008b0	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2224	6	0	15	0	0	0	0	0	0	0	0
+       210	        31	    203361	    0	      1	                                    expf	/lib64/libm.so.6	203312	114	0	10	0	0	0	0	0	0	0	0
+       211	       329	      3168	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       212	        14	    239393	    0	      1	                             _L_lock_130	/lib64/libc.so.6	239386	31	0	24	0	0	0	0	0	0	0	0
+       213	        14	    239417	    0	      1	                           _L_unlock_140	/lib64/libc.so.6	239417	31	0	27	0	0	0	0	0	0	0	0
+       214	        43	    185490	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       215	        27	    239753	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       216	       329	      3114	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       217	        38	      2690	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+       218	       329	      2993	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       219	        43	    185839	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       220	        23	    239717	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       221	        27	    239717	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       222	        43	    185300	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       223	       329	      3173	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       224	        14	    239154	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       225	        14	    239137	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       226	        10	    239144	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       227	        15	   1099746	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       228	        65	    195669	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       229	        -1	    239753	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       230	        43	    185899	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       231	        21	   1099792	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+       232	        43	    185525	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       233	       329	      3119	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       234	        10	    239137	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       235	        43	    185612	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       236	       329	      3075	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       237	        43	    185855	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       238	       329	      3095	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       239	       329	      3009	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       240	        43	    185847	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       241	        65	    195801	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       242	        14	    239443	    0	      1	                           _L_unlock_140	/lib64/libc.so.6	239417	31	0	27	0	0	0	0	0	0	0	0
+       243	        -1	    176985	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       244	        -1	    239122	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       245	        17	   1099794	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+       246	        -1	    203352	    0	      1	                                    expf	/lib64/libm.so.6	203312	114	0	10	0	0	0	0	0	0	0	0
+       247	        -1	    239717	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       248	       207	      2368	    0	      0	                           func@0x400940	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2368	6	0	13	0	0	0	0	0	0	0	0
+       249	        65	    195693	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       250	        38	      2771	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+       251	       329	      3109	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       252	        43	    185756	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       253	        43	    185536	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       254	        43	    204955	    0	      1	                                    logf	/lib64/libm.so.6	204944	77	0	21	0	0	0	0	0	0	0	0
+       255	        31	    203339	    0	      1	                                    expf	/lib64/libm.so.6	203312	114	0	10	0	0	0	0	0	0	0	0
+       256	        10	    239088	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       257	        27	    239751	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       258	        38	      2740	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+       259	        -1	    195801	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       260	        32	    177072	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       261	        65	    195789	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       262	        32	    176954	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       263	       207	    205728	    0	      1	                                   sqrtf	/lib64/libm.so.6	205728	38	0	19	0	0	0	0	0	0	0	0
+       264	        43	    204953	    0	      1	                                    logf	/lib64/libm.so.6	204944	77	0	21	0	0	0	0	0	0	0	0
+       265	        14	    239122	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       266	        38	      2759	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+       267	        65	    195899	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       268	        21	   1099794	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+       269	        23	    239724	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       270	       354	      2997	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       271	        10	    239412	    0	      1	                             _L_lock_130	/lib64/libc.so.6	239386	31	0	24	0	0	0	0	0	0	0	0
+       272	        43	    185740	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       273	        10	    239190	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       274	        23	    239751	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       275	        31	    203315	    0	      1	                                    expf	/lib64/libm.so.6	203312	114	0	10	0	0	0	0	0	0	0	0
+       276	        43	    185608	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       277	        10	    239163	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       278	        43	    185411	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       279	        38	      2798	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+       280	        14	    239099	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       281	        -1	      2694	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+       282	       329	      3001	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       283	        -1	    176932	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       284	        65	    195911	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       285	        21	   1099815	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+       286	        -1	    239732	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       287	        -1	    177033	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       288	        -1	    185608	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       289	        -1	    239195	    0	      1	                                  random	/lib64/libc.so.6	239088	112	0	29	0	0	0	0	0	0	0	0
+       290	        -1	    177044	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       291	        -1	    195611	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       292	        -1	    205740	    0	      1	                                   sqrtf	/lib64/libm.so.6	205728	38	0	19	0	0	0	0	0	0	0	0
+       293	        -1	    177125	    0	      1	                           __expf_finite	/lib64/libm.so.6	176928	437	0	14	0	0	0	0	0	0	0	0
+       294	        -1	    185300	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       295	       354	      3039	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       296	        -1	    239737	    0	      1	                                random_r	/lib64/libc.so.6	239696	156	0	30	0	0	0	0	0	0	0	0
+       297	        -1	    185305	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       298	       354	      3018	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       299	        -1	    185411	    0	      1	                           __logf_finite	/lib64/libm.so.6	185296	645	0	17	0	0	0	0	0	0	0	0
+       300	        -1	      2797	    0	      0	                               boxMuller	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2690	109	0	9	0	0	0	0	0	0	0	0
+       301	        -1	    195604	    0	      1	                                    cosf	/lib64/libm.so.6	195600	824	0	20	0	0	0	0	0	0	0	0
+       302	        -1	   1099818	    0	      1	               __lll_unlock_wake_private	/lib64/libc.so.6	1099792	28	0	28	0	0	0	0	0	0	0	0
+       303	       354	      3173	    1	      0	     [Loop@0x400bac in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2988,3204	210,17	3198,3221	7	0	0	0	0	0	0	0	0
+       304	         6	     32403	    0	      1	                            start_thread	/lib64/libpthread.so.0	32224	768	0	3	0	0	0	0	0	0	0	0
+       305	         6	     32420	    0	      1	                            start_thread	/lib64/libpthread.so.0	32224	768	0	3	0	0	0	0	0	0	0	0
+       306	         2	    140441	    0	      1	                       __libc_start_main	/lib64/libc.so.6	140384	448	0	18	0	0	0	0	0	0	0	0
+       307	         2	    140628	    0	      1	                       __libc_start_main	/lib64/libc.so.6	140384	448	0	18	0	0	0	0	0	0	0	0
+       308	        11	   1099764	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       309	        11	   1099772	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       310	        15	   1099764	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       311	        15	   1099776	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       312	        15	   1099772	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       313	        15	   1099770	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       314	        11	   1099776	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       315	        11	   1099774	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       316	        11	   1099770	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       317	        11	   1099764	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       318	        11	   1099765	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       319	        15	   1099765	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       320	        15	   1099774	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       321	        -1	   1099764	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       322	        -1	   1099772	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       323	        -1	   1099776	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       324	        15	   1099764	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       325	        -1	   1099770	    0	      1	                 __lll_lock_wait_private	/lib64/libc.so.6	1099744	40	0	26	0	0	0	0	0	0	0	0
+       326	         3	      3701	    0	      0	                                    main	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	3523	1172	0	5	0	0	0	0	0	0	0	0
+       327	         3	      4169	    0	      0	                                    main	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	3523	1172	0	5	0	0	0	0	0	0	0	0
+       328	         8	      2959	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       329	       328	      2988	    1	      0	     [Loop@0x400b8f in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2959	398	3357	8	0	0	0	0	0	0	0	0
+       330	         8	      3022	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       331	         8	      2992	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       332	         8	      3172	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       333	         8	      3067	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       334	         8	      2988	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       335	         8	      3027	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       336	         8	      3130	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       337	         8	      3072	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       338	         8	      3043	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       339	         8	      3023	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       340	         8	      3053	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       341	         8	      2997	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       342	         8	      3031	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       343	         8	      3013	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       344	         8	      3164	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       345	         8	      3204	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       346	         8	      3192	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       347	         8	      3144	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       348	         8	      3039	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       349	         8	      3018	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       350	         8	      3196	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       351	         8	      3152	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       352	         8	      3160	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       353	        -1	      2959	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       354	       353	      2988	    1	      0	     [Loop@0x400b8f in monteCarloThread]	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2959	398	3357	8	0	0	0	0	0	0	0	0
+       355	        -1	      3027	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       356	         8	      3168	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       357	         8	      3114	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       358	         8	      2993	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       359	         8	      3173	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       360	         8	      3119	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       361	         8	      3075	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       362	         8	      3095	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       363	         8	      3009	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       364	         8	      3109	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       365	        -1	      2997	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       366	         8	      3001	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       367	        -1	      3039	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       368	        -1	      3018	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       369	        -1	      3173	    0	      0	                        monteCarloThread	/home/user8/maheshwari_bhalshankar_parallel/Project_code/profiling/Adivsor/pthread/pthread1	2799	568	0	6	0	0	0	0	0	0	0	0
+       370	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	33	0	0	0	0	0	0	0	0
